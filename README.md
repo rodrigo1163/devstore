@@ -68,7 +68,7 @@ devstore/
 
 ### 1. Clone o repositório
 ```bash
-git clone https://github.com/seu-usuario/devstore.git
+git clone https://github.com/rodrigo1163/devstore.git
 cd devstore
 ```
 
@@ -195,7 +195,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 👨‍💻 Autor
 
-Desenvolvido com ❤️ por [Seu Nome](https://github.com/seu-usuario)
+Desenvolvido com ❤️ por [Seu Nome](https://github.com/rodrigo1163)
 
 ---
 
