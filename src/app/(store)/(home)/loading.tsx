@@ -1,4 +1,4 @@
-import { Skeleton } from "@/app/_components/skeleton";
+import { Skeleton } from "@/components/skeleton";
 
 export default function StoreLoading() {
   return (

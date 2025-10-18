@@ -1,4 +1,4 @@
-import { Header } from "../_components/header";
+import { Header } from "@/components/header";
 
 export default function StoreLayout({
   children,
