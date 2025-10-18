@@ -82,10 +82,19 @@ npm install
 ### 3. Configure as variáveis de ambiente
 Crie um arquivo `.env.local` na raiz do projeto:
 
+#### Para desenvolvimento local (com API local):
+```env
+APP_URL=http://localhost:3000
+NEXT_PUBLIC_API_BASE_URL=http://localhost:3000
+```
+
+#### Para desenvolvimento com API externa:
 ```env
 APP_URL=http://localhost:3000
 NEXT_PUBLIC_API_BASE_URL=https://sua-api-url.com
 ```
+
+> 💡 **Nota**: Para testes locais, use `http://localhost:3000` como `NEXT_PUBLIC_API_BASE_URL` pois a API está integrada no próprio projeto Next.js.
 
 ### 4. Execute o servidor de desenvolvimento
 ```bash
@@ -133,12 +142,28 @@ Os testes cobrem:
 
 ## 🚀 Deploy
 
-### Vercel (Recomendado)
+### ⚠️ Importante: Deploy da API
+
+Para fazer o build da aplicação corretamente, você precisa ter a API rodando. **Não é possível fazer `pnpm run build` enquanto `pnpm run dev` está executando** devido a conflitos de porta.
+
+**Solução Recomendada:**
+1. Faça o deploy da API na Vercel usando o botão abaixo
+2. Configure a variável `NEXT_PUBLIC_API_BASE_URL` com a URL da sua API deployada
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frocketseat-education%2Fignite-devstore-api)
+
+> 💡 **Dica**: Use o botão acima para fazer fork da API oficial da Rocketseat e deployar na Vercel, depois use a URL gerada na variável `NEXT_PUBLIC_API_BASE_URL`.
+
+### Deploy da Aplicação Frontend
+
+#### Vercel (Recomendado)
 1. Conecte seu repositório ao Vercel
-2. Configure as variáveis de ambiente
+2. Configure as variáveis de ambiente:
+   - `APP_URL`: URL da sua aplicação (ex: https://seu-app.vercel.app)
+   - `NEXT_PUBLIC_API_BASE_URL`: URL da API deployada (ex: https://sua-api.vercel.app)
 3. Deploy automático a cada push
 
-### Outras Plataformas
+#### Outras Plataformas
 ```bash
 pnpm build
 pnpm start
