@@ -1,6 +1,6 @@
 # 🛍️ DevStore
 
-Uma loja virtual construída com **Next.js 15** focada no aprendizado e implementação de funcionalidades avançadas do framework, incluindo App Router, Server Components, cache de dados, e integração com testes E2E usando Cypress. O projeto prioriza as capacidades técnicas do Next.js e workflows de desenvolvimento modernos.
+Uma loja virtual construída com **Next.js 15** desenvolvida através do curso da **Rocketseat**, focada no aprendizado e implementação de funcionalidades avançadas do framework, incluindo App Router, Server Components, cache de dados, e integração com testes E2E usando Cypress. O projeto prioriza as capacidades técnicas do Next.js e workflows de desenvolvimento modernos.
 
 ![Next.js](https://img.shields.io/badge/Next.js-15.5.5-black?style=for-the-badge&logo=next.js)
 ![React](https://img.shields.io/badge/React-19.1.0-blue?style=for-the-badge&logo=react)
@@ -146,7 +146,7 @@ pnpm start
 
 ## 🎯 Objetivos do Projeto
 
-Este projeto foi desenvolvido com foco no **aprendizado e implementação de funcionalidades avançadas do Next.js**, não na estilização da UI. Os principais objetivos incluem:
+Este projeto foi desenvolvido através do **curso da Rocketseat** com foco no **aprendizado e implementação de funcionalidades avançadas do Next.js**, não na estilização da UI. Os principais objetivos incluem:
 
 - **Aprender Next.js 15** - App Router, Server Components, e novas funcionalidades
 - **Implementar Workflows** - CI/CD com GitHub Actions e testes automatizados
@@ -154,6 +154,8 @@ Este projeto foi desenvolvido com foco no **aprendizado e implementação de fun
 - **Gerenciar Estado** - Context API e padrões de estado em React
 - **Otimizar Performance** - Cache, revalidação e otimizações do Next.js
 - **Integrar APIs** - Fetch de dados, validação com Zod e tratamento de erros
+
+> 📚 **Curso**: Este projeto foi desenvolvido seguindo as aulas e exercícios do curso de Next.js da Rocketseat, aplicando as melhores práticas e conceitos ensinados.
 
 ## 🔧 Implementações Técnicas Detalhadas
 
@@ -195,8 +197,12 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 👨‍💻 Autor
 
-Desenvolvido com ❤️ por [Seu Nome](https://github.com/rodrigo1163)
+Desenvolvido com ❤️ por [Rodrigo](https://github.com/rodrigo1163) através do curso da **Rocketseat**
 
 ---
 
 ⭐ Se este projeto te ajudou, considere dar uma estrela!
+
+## 📚 Agradecimentos
+
+Agradecimentos especiais à **Rocketseat** pelo excelente conteúdo e didática do curso de Next.js que possibilitou o desenvolvimento deste projeto.
